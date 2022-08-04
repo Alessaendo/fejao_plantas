@@ -1,0 +1,207 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+	color: #6E8B3D;
+
+}
+
+.logo {
+	box-shadow: 10px 10px 5px 0 #696969;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	padding: 1em 0;
+	color: #DAA520;
+
+}
+
+header {
+
+	margin-top: 30px;
+	padding: 10px 0;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 50px;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top:110px;
+	right: 1px;
+	
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #DAA520;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+
+	color :#8B6914;
+	text-decoration: underline;
+}
+.carrinho {
+	width: 100px;
+	float: left;
+	margin:0 10px 10px 0;
+}
+
+.banner {
+	width: 250px;
+	float: left;
+	margin:0 20px 20px 0;
+	opacity: 0.7;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px 0 #696969
+}
+
+.banner:hover {
+	opacity: 1;
+}
+
+.principal {
+	padding: 3am 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+
+}
+.principal p {
+
+		margin: 0 1em 1em;
+		padding: 1em 0;
+}
+.principal p:before {
+	content: "[";
+}
+.principal p:after {
+	content: "]";
+}
+.principal strong {
+
+	font-weight: bold;
+}
+
+.principal em {
+
+	font-style: italic;
+}
+
+.mapa {
+	
+	background: linear-gradient(#FEFEFE,#FFE4B5,#F0E68C);
+}
+
+.mapa-conteudo {
+	width: 1000px;
+	margin: 100px auto;
+	padding: 1em 0;
+}
+
+.mapa p {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.ambiente {
+
+	width: 250px;
+	height: auto;
+	float: right;
+	margin:30px 50px 20px 0;
+	border-radius: 100px;
+	opacity: 0.7;
+	transition: 400ms;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.ambiente:hover {
+	opacity: 1;
+	box-shadow: 10px 10px 5px 0 #696969
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0 ;
+	
+
+}
+
+.copyright {
+	color: #6E8B3D;
+	font-size: 13px;
+	width: 	100%;
+	position: absolute;
+
+}
+
+/*css contato*/
+
+form {
+	margin: 0 0 0 100px;
+	float: 	left;
+	width: 	40%;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+
+td, th {
+	border: 1px solid #6E8B3D;
+
+	padding: 15px 8px;
+}
+th {
+	font-weight: bold;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.tabela {
+	flex-direction: row;
+    margin:100px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+
+}
+.titulohorario{
+	font-size: 	18px;
+	font-weight: bold;
+}
+
+	
